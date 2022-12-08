@@ -1,12 +1,11 @@
  #include <stdio.h>
- /**
-  * main - Entry point
-  *
-  * Description: 'a program that prints a string'
-  *
-  * Return: Always 0 (Success)
-  */
-
+/**
+ * main - The entry pointf for all C programs
+ *
+ *@void: : does not return parameters
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
