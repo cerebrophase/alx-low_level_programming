@@ -2,6 +2,8 @@
  /**
   * main - Entry point
   *
+  * Description: 'a program that prints a string'
+  *
   * Return: Always 0 (Success)
   */
 
