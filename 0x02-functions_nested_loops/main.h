@@ -1,11 +1,8 @@
-#include <stdio.h>
-/**
- * main - entry point
- * Return: 0
- */
-int main(void)
+#ifndef _main_h_
+#define _main_h_
 
-	int print_alphabet;
-	_putchar;
-	return (0);
-}
+int _putchar(char);
+
+#endif
+
+
