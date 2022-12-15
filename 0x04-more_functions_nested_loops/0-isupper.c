@@ -5,12 +5,16 @@
  *@c: ASCII character to be checked
  * Return: 1 if c is uppercase, 0 for others
  */
-int_isupper(int c)
+
+int _isupper(int c)
 {
 
-	if (c <= 90 && c >= 65)
+	if (c < 91 && c >= 65)
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
