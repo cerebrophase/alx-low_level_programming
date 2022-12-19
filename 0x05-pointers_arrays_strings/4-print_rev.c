@@ -5,23 +5,17 @@
  * @s: pointer to the string to print
  * Return: void
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int len, i, half;
+	int count = 0;
 
-	char temp;
-
-	for (len = 0; s[len] != '\0'; len++)
-
-	i = 0;
-
-	half = len / 2;
-
-	while (half--)
+	while (count >= 0)
 	{
-		temp = s[len - i - 1];
-		s[len - i - 1] = s[i];
-		s[i] = temp;
-		i++;
+		if (s[count] == '\0')
+			break;
+		count++;
 	}
+	for (count--; count >= 0; count--)
+		_putchar(s[count]);
+	_putchar('\n');
 }
