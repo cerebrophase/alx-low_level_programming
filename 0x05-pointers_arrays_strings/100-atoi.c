@@ -17,6 +17,7 @@ int _atoi(char *s)
 	}
 	else if (*s == '+')
 	{
+		sign = +1;
 		s++;
 	}
 	while (*s)
