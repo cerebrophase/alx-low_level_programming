@@ -1,8 +1,8 @@
 MORE MALLOC, FREE
 
 Memory allocation
-TASK 
-0. Trust no one
+
+TASK 0: Trust no one
 Write a function that allocates memory using malloc.
 
 Prototype: `void *malloc_checked(unsigned int b);`
@@ -53,7 +53,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ echo $?
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
-TASK 1. string_nconcat
+TASK 1: string_nconcat
 Write a function that concatenates two strings.
 
 Prototype: `char *string_nconcat(char *s1, char *s2, unsigned int n);`
@@ -88,13 +88,8 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./1-string_nconcat
 Best School
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-Repo:
 
-GitHub repository: alx-low_level_programming
-Directory: 0x0C-more_malloc_free
-File: 1-string_nconcat.c
-
-2. _calloc
+TASK 2: _calloc
 Write a function that allocates memory for an array, using malloc.
 
 Prototype: `void *_calloc(unsigned int nmemb, unsigned int size);`
@@ -171,7 +166,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
-3. array_range
+TASK 3: array_range
 Write a function that creates an array of integers.
 
 Prototype: `int *array_range(int min, int max);`
@@ -179,6 +174,7 @@ The array created should contain all the values from min (included) to max (incl
 Return: the pointer to the newly created array
 If min > max, return NULL
 If malloc fails, return NULL
+
 ```
 julien@ubuntu:~/0x0b. more malloc, free$ cat 3-main.c
 #include "main.h"
@@ -235,7 +231,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
-4. _realloc
+TASK 4: _realloc
 #advanced
 Write a function that reallocates a memory block using malloc and free
 
@@ -250,6 +246,7 @@ If ptr is NULL, then the call is equivalent to malloc(new_size), for all values 
 If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 Don’t forget to free ptr when it makes sense
 FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
+
 ```
 julien@ubuntu:~/0x0b. more malloc, free$ cat 100-main.c
 #include "main.h"
@@ -321,7 +318,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./100-realloc
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
-5. We must accept finite disappointment, but never lose infinite hope
+TASK 5: We must accept finite disappointment, but never lose infinite hope
 #advanced
 Write a program that multiplies two positive numbers.
 
@@ -341,8 +338,3 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./101-mul 23523469326943643622344652654
 6741363923575589187997046452422615907476091498993541335055687577080701989306920124712185512283638941702255216631601001307425878158314387046118270789357784940867204055508948216034308548261234814532268988302522598879945232929028116992753216059081057377926651337612618248332113256902485974371969385156015068813868274000683912187818601667058605418678284322237297213673482412392922068159291496274311170208689056585352782844484721140846367741649962638649229509281867896067208474178402156294978940712959518351846413859141792380853313812015295333546716634344284086426775480775747808150030732119704867805688704303461042373101473485092019906795014369069932
 julien@ubuntu:~/0x0b. more malloc, free$
 ```
-Repo:
-
-GitHub repository: alx-low_level_programming
-Directory: 0x0C-more_malloc_free
-File: 101-mul.c
