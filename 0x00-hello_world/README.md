@@ -1,7 +1,7 @@
 # 0x00. C - Hello, World
 
 ## More Info
-##Betty linter
+## Betty linter
 To run the Betty linter just with command `betty <filename>`:
 
 Go to the `Betty` repository
