@@ -1,8 +1,6 @@
  #include <stdio.h>
 /**
- * main - The entry pointf for all C programs
- *
- *@void: : does not return parameters
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
