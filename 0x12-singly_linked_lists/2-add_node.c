@@ -22,7 +22,7 @@ unsigned int _strlen(char *str)
  * @head: double pointer to a lined list
  * @str: string to add to the new node
  *
- * return: pointer to the new node
+ * Return: pointer to the new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -39,7 +39,7 @@ list_t *add_node(list_t **head, const char *str)
 		free(new);
 		return (NULL);
 	}
-	new->len =_strlen(new->str);
+	new->len = _strlen(new->str);
 	new->next = *head;
 	*head = new;
 	return (new);
